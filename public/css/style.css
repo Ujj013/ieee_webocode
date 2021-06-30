@@ -151,6 +151,21 @@ body {
   width: 200px;
   margin-right: 30px;
 }
+@media screen and (max-width: 460px) {
+  #experts p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #experts p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #experts button {
+    font-size: 10px;
+  }
+}
 #vaccine {
   background: #b7f0da;
 }
